@@ -1,0 +1,62 @@
+
+.datos_registro{
+  display: flex;
+  justify-content: space-around;
+}
+.container_registro{
+  text-align: center;
+   border: grey 5px;
+   border-radius: 10px;
+}
+
+.pedido{
+  /*background-color: black;*/
+  text-align: center;
+  display:  block;
+  justify-content: space-around;
+}
+h1{
+  text-align: center;
+  margin-top: 0;
+}
+
+.pedido_container{
+      display: flex;
+      justify-content: space-around;
+}
+
+.lista{
+  text-align: center;
+   border: grey 5px;
+   display:  block;
+   justify-content: space-around;
+}
+
+
+.inicio {
+      margin-left: 82vw;
+      margin-top: 20px;
+      margin-bottom: 20px;
+}
+.cerrar_sesion{
+  width: 155px;
+}
+
+.tabla{
+     border-radius: 10px;
+     width: 100%;
+     /*border: 1px solid #000;*/
+}
+
+th, td {
+     width: 25px;
+    /* border: 1px solid #000;*/
+     border-collapse: collapse;
+     padding: 0.3em;
+     caption-side: bottom;
+}
+
+
+th {
+     background: #eee;
+}
