@@ -12,6 +12,7 @@ mysqli_select_db($con,$db)or die("problemas al conectar con la base de datos");
 session_start();
 $usuario = $_SESSION['usuario'];
 $nombre = $_SESSION['nombre'];
+/*hello*/
 
 if(!isset($_SESSION['id'])){
   header("Location: ../index.php");
