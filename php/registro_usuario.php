@@ -20,6 +20,7 @@
  $documento=$_POST['documento'];
  $telefono_fijo=$_POST['telefono_fijo'];
  $celular=$_POST['celular'];
+ /*ok*/
 
 
  //hacemos la sentencia de sql
